@@ -1,0 +1,158 @@
+/* ==============================
+   CASIPAI CASINO THEME
+   ============================== */
+
+body {
+    background: linear-gradient(180deg, #052e16, #02140a);
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: #02140a !important;
+    border-bottom: 2px solid #d4af37;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #d4af37 !important;
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: #d4af37 !important;
+}
+
+/* Cards */
+.card {
+    background: #042f1a;
+    border-radius: 15px;
+    border: 1px solid #0f5132;
+}
+
+.card-title {
+    color: #d4af37;
+}
+
+/* Game cards */
+.game-card {
+    transition: 0.25s;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(212,175,55,0.4);
+}
+
+/* Buttons */
+.btn-success {
+    background-color: #198754;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #157347;
+}
+
+.btn-gold {
+    background-color: #d4af37;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-gold:hover {
+    background-color: #b8962e;
+}
+
+/* Chat */
+.chat-box {
+    height: 300px;
+    overflow-y: auto;
+    background: #02140a;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #0f5132;
+}
+
+/* Game table */
+.game-table {
+    height: 350px;
+    background: radial-gradient(circle, #14532d, #052e16);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+/* Sidebar (future admin/social) */
+.sidebar {
+    background: #02140a;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background: #0f5132;
+}
+
+/* Profile */
+.profile-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #0f5132;
+    margin: auto;
+}
+
+/* Stats */
+.stat-box {
+    background: #02140a;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #0f5132;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #d4af37;
+}
+
+/* Tables */
+.table {
+    color: white;
+}
+
+.table thead {
+    background: #02140a;
+    color: #d4af37;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #02140a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0f5132;
+    border-radius: 10px;
+}
